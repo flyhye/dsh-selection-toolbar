@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Selection Toolbar",
+    "description": "Selecting transcript text opens a floating toolbar beside the selection: quote it into the composer as a numbered reference chip (#1, #2, …) that expands to \"[#N] (turn T) passage\" on send, or fork the Session into a side conversation in the right sidebar."
+  }
+}

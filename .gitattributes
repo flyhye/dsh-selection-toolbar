@@ -1,0 +1,6 @@
+# Normalize all text files to LF in the repository; pnpm installs from this
+# repo on any platform, and mixed line endings would churn diffs.
+* text=auto eol=lf
+# Keep the icon binary-clean regardless of platform rules.
+*.svg text
+*.png binary
