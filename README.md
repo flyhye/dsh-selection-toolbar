@@ -17,12 +17,17 @@ A floating text-selection toolbar for the DeepSeek Harness Web UI: quote a trans
 
 ## 安装
 
-本包名称为 `@local/dsh-selection-toolbar`，带 `@local/` 前缀，未发布到 npm，请从本地目录安装：
+从 GitHub 安装（推荐）：
 
-- CLI：`dsh plugin --profile <profile> add <本仓库目录路径>`（`plugin` 子命令把参数原样转发给 pnpm，动词是 `add`）
-- Desktop：在插件页面选择本仓库目录
+```sh
+dsh plugin --profile <profile> add github:flyhye/dsh-selection-toolbar
+```
 
-安装以目录链接（junction）形式落地，此后修改本仓库内的文件即对插件生效，重新安装仅在 `package.json` 变更（如版本号、`dsh.client.inject`）时需要。
+例如 Web 端：`dsh plugin --profile web add github:flyhye/dsh-selection-toolbar`。
+
+也可以从本地目录安装（适合开发调试）：将本仓库目录传给插件管理器（Desktop 在插件页面选择本地目录；CLI 用 `dsh plugin --profile <profile> add <目录路径>`——`plugin` 子命令把参数原样转发给 pnpm，动词是 `add`）。
+
+本地目录安装以目录链接（junction）形式落地，此后修改仓库内文件即对插件生效；重新安装仅在 `package.json` 变更（如版本号、`dsh.client.inject`）时需要。
 
 ## 使用限制
 
