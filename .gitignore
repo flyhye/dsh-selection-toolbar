@@ -1,0 +1,2 @@
+# DSH local runtime artifacts (session rollbacks and the like) — never publish.
+.dsh/
