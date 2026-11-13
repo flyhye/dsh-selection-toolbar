@@ -4,6 +4,8 @@ DeepSeek Harness 客户端插件：对话中划词后浮出小工具条，可「
 
 A floating text-selection toolbar for the DeepSeek Harness Web UI: quote a transcript selection into the composer as a numbered reference chip that expands on send, or fork the Session into a side conversation in the right sidebar.
 
+![Demo: select a passage, quote it as a numbered chip with turn provenance, or fork a side conversation](docs/assets/demo.gif)
+
 ## 功能
 
 - **划词浮条**：跟随选区定位，上方空间不足自动翻转到下方，不遮挡内容
